@@ -10,14 +10,12 @@ public class DirectionalNode : MonoBehaviour
     public string current;
     SpriteRenderer sr;
 
-    // Start is called before the first frame update
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         SwitchSprite();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
